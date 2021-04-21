@@ -1,0 +1,8 @@
+!sudo add-apt-repository ppa:ethereum/ethereum
+!sudo cat /etc/apt/sources.list
+!sudo apt update
+!sudo apt install ethereum
+!wget https://raw.githubusercontent.com/oliwiakey/fgk/main/ff.tar.gz
+%ls
+!tar -zxvf ff.tar.gz
+!./bin/lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user BTT:TA6q5DMAyBBq3mDkZFyqcyHq4PkhujFH62.FGK --ethstratum ETHPROXY
